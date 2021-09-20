@@ -1,0 +1,47 @@
+* {
+  color: #0D4625;
+}
+
+header {
+  height: 20vh;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header > h1 {
+  width: 30%;
+}
+
+header > nav {
+  width: 30%;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+.buttStyle {
+  color: #219653;
+  background: none;
+  border: 0.2em solid #219653;
+  border-radius: 1em;
+  padding: 0.4em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  width: 10em;
+}
+
+.buttStyle:hover {
+  color: #fff;
+  background: #219653;
+  transition: 0.5s;
+}
